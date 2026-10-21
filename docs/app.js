@@ -9,7 +9,7 @@ const SEL = 'id,headword,status,data';
 
 // ---------- i18n
 const T = {
- fr: { 'nav.browse':'Parcourir','nav.fav':'Favoris','nav.submit':'Contribuer','nav.app':'Application','nav.admin':'Admin','nav.about':'À propos',
+ fr: { cta:'📱 Obtenir l’app', openApp:'Ouvrir dans l’app', 'nav.browse':'Parcourir','nav.fav':'Favoris','nav.submit':'Contribuer','nav.app':'Application','nav.admin':'Admin','nav.about':'À propos',
   foot:'Diksioner Kreol Morisien — dictionnaire communautaire', title:'Diksioner Kreol Morisien', tag:'Le dictionnaire créole mauricien ↔ français ↔ anglais',
   ph:'Chercher un mot en kreol, français ou anglais…', wotd:'Mot du jour', stats:'Le dictionnaire', words:'mots', stories:'histoires',
   noRes:'Aucun résultat. Proposez ce mot !', browse:'Parcourir de A à Z', prev:'← Précédent', next:'Suivant →', favs:'Mes favoris',
@@ -23,7 +23,7 @@ const T = {
   logout:'Déconnexion', notMod:'Ce compte n’a pas le rôle modérateur.', queue:'File de modération', approve:'Approuver', reject:'Rejeter', empty:'File vide 🎉',
   linkSent:'Lien envoyé, vérifiez votre boîte mail.', needLogin:'Les propositions anonymes ne sont pas encore activées : connectez-vous par e-mail pour contribuer.',
   about:'À propos', aboutTxt:'Dictionnaire communautaire du kreol morisien. Données : Wiktionary (CC BY-SA 4.0) et contributions vérifiées. Les entrées « À vérifier » ont des définitions provisoires.' },
- en: { 'nav.browse':'Browse','nav.fav':'Favorites','nav.submit':'Contribute','nav.app':'App','nav.admin':'Admin','nav.about':'About',
+ en: { cta:'📱 Get the app', openApp:'Open in app', 'nav.browse':'Browse','nav.fav':'Favorites','nav.submit':'Contribute','nav.app':'App','nav.admin':'Admin','nav.about':'About',
   foot:'Diksioner Kreol Morisien — community dictionary', title:'Diksioner Kreol Morisien', tag:'The Mauritian Creole ↔ French ↔ English dictionary',
   ph:'Search a word in Kreol, French or English…', wotd:'Word of the day', stats:'The dictionary', words:'words', stories:'stories',
   noRes:'No results. Suggest this word!', browse:'Browse A to Z', prev:'← Previous', next:'Next →', favs:'My favorites',
@@ -37,7 +37,7 @@ const T = {
   logout:'Sign out', notMod:'This account does not have the moderator role.', queue:'Moderation queue', approve:'Approve', reject:'Reject', empty:'Queue is empty 🎉',
   linkSent:'Link sent, check your inbox.', needLogin:'Anonymous suggestions are not enabled yet: sign in by email to contribute.',
   about:'About', aboutTxt:'Community dictionary of Mauritian Creole. Data: Wiktionary (CC BY-SA 4.0) and reviewed contributions. “Needs review” entries have draft definitions.' },
- mfe: { 'nav.browse':'Get tou','nav.fav':'Mo bann prefere','nav.submit':'Kontribie','nav.app':'Aplikasion','nav.admin':'Admin','nav.about':'Lor nou',
+ mfe: { cta:'📱 Pran aplikasion', openApp:'Ouver dan aplikasion', 'nav.browse':'Get tou','nav.fav':'Mo bann prefere','nav.submit':'Kontribie','nav.app':'Aplikasion','nav.admin':'Admin','nav.about':'Lor nou',
   foot:'Diksioner Kreol Morisien — diksioner kominoter', title:'Diksioner Kreol Morisien', tag:'Diksioner kreol morisien ↔ franse ↔ angle',
   ph:'Rod enn mo an kreol, franse ouswa angle…', wotd:'Mo zordi', stats:'Diksioner', words:'mo', stories:'zistwar',
   noRes:'Nanye pa finn trouve. Propoz sa mo-la !', browse:'Get tou mo depi A ziska Z', prev:'← Avan', next:'Apre →', favs:'Mo bann prefere',
@@ -103,12 +103,27 @@ const li = r => `<li><a href="#/w/${encodeURIComponent(r.id)}"><span class="hw">
 const skel = n => Array.from({ length: n }, () => '<div class="skel"></div>').join('');
 const setMeta = (title, desc) => { document.title = title; $('meta[name=description]').content = desc; };
 
+function openInApp(id) {
+  const t0 = Date.now(); let hidden = false;
+  const h = () => { if (document.hidden) hidden = true; };
+  document.addEventListener('visibilitychange', h);
+  location.href = 'kreolmorisien://word/' + encodeURIComponent(id);
+  setTimeout(() => { document.removeEventListener('visibilitychange', h); if (!hidden && Date.now() - t0 < 4000) location.hash = '#/app'; }, 1600);
+}
+async function latestRelease() {
+  const get = u => fetch(u, { cache: 'no-store' }).then(r => r.ok ? r.json() : null).catch(() => null);
+  const ok = j => j && /^https:\/\/(cybchoqhntuhqxnpcgyv\.supabase\.co|github\.com\/mistergrandk\/kreol-website)\//.test(j.apkUrl);
+  const [a, b] = await Promise.all([get(`${CFG.url}/storage/v1/object/public/releases/latest.json`), get('release.json')]);
+  const c = [a, b].filter(ok).sort((x, y) => y.versionCode - x.versionCode)[0];
+  if (!c) throw new Error('release unavailable');
+  return c;
+}
 // ---------- views
 async function home() {
   setMeta(t('title') + ' — ' + t('tag'), t('tag'));
   main.innerHTML = `<section class="hero"><h1>${t('title')}</h1><p>${t('tag')}</p>
    <div class="search" role="search"><input id="q" type="search" autocomplete="off" maxlength="60" placeholder="${esc(t('ph'))}" aria-label="${esc(t('ph'))}">
-   <ul class="results" id="res" aria-live="polite"></ul></div></section>
+   <ul class="results" id="res" aria-live="polite"></ul></div><p><a class="btn lb heroapp" href="#/app">${t('cta')}</a></p></section>
    <div class="grid"><div class="card wotd" id="wotd"><h3>☀ ${t('wotd')}</h3>${skel(3)}</div>
    <div class="card" id="stats"><h3>📚 ${t('stats')}</h3>${skel(2)}</div>
    <div class="card"><h3>📱 ${t('app')}</h3><p class="muted">${t('appTxt')}</p><a class="btn" href="#/app" data-l>${t('dl')}</a></div></div>`;
@@ -157,7 +172,8 @@ async function word(id) {
      ${d.etymology ? `<h3>${t('ety')}</h3><p>${esc(d.etymology)}</p>` : ''}
      ${list('variants', d.variants)}${list('related', d.related)}
      ${d.source && d.source.primary ? `<p class="muted small">${t('source')}: ${esc(d.source.primary)}</p>` : ''}
-     <a class="btn alt lb" href="#/submit?entry=${encodeURIComponent(id)}">✎ ${t('suggest')}</a></article>`;
+     <p class="row"><button class="btn" id="oia">📱 ${t('openApp')}</button><a class="btn alt lb" href="#/submit?entry=${encodeURIComponent(id)}">✎ ${t('suggest')}</a></p></article>`;
+  $('#oia').onclick = () => openInApp(id);
   $('#fav').onclick = () => { toggleFav(id); word(id); };
   const ld = document.createElement('script'); ld.type = 'application/ld+json';
   ld.textContent = JSON.stringify({ '@context': 'https://schema.org', '@type': 'DefinedTerm', name: d.headword, description: gloss(d), inDefinedTermSet: 'Diksioner Kreol Morisien' });
@@ -245,9 +261,7 @@ async function appView() {
   setMeta(`${t('app')} — ${t('title')}`, t('appTxt'));
   main.innerHTML = `<div class="card"><h1>📱 ${t('app')}</h1><p>${t('appTxt')}</p><div id="rel">${skel(3)}</div></div>`;
   try {
-    const r = await fetch(`${CFG.url}/storage/v1/object/public/releases/latest.json`, { cache: 'no-store' });
-    const j = await r.json();
-    if (!/^https:\/\/cybchoqhntuhqxnpcgyv\.supabase\.co\//.test(j.apkUrl)) throw new Error('bad url');
+    const j = await latestRelease();
     $('#rel').innerHTML = `<p><b>${t('ver')}</b> ${esc(j.versionName)} · <b>${t('size')}</b> ${(j.size / 1048576).toFixed(1)} MB</p>
       <p class="muted">${esc(lang === 'en' ? j.notes_en : j.notes_fr)}</p>
       <a class="btn lb" href="${esc(j.apkUrl)}" rel="noopener">⬇ ${t('dl')}</a>

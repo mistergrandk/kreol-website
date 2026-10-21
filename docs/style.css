@@ -32,3 +32,6 @@ form.f label{display:block;margin:12px 0 4px;font-weight:600}form.f input,form.f
 .skel{height:18px;background:linear-gradient(90deg,var(--bd),var(--card),var(--bd));background-size:200%;animation:sk 1.2s infinite;border-radius:6px;margin:8px 0}@keyframes sk{to{background-position:-200% 0}}
 @media(max-width:640px){.top{gap:8px}nav{order:3;flex-basis:100%;overflow-x:auto;flex-wrap:nowrap}.word h1{font-size:2rem}}
 .lb{text-decoration:none;display:inline-block}.stat{font-size:2rem;margin:0;font-weight:800;color:var(--pri)}.sb{justify-content:space-between}.narrow{max-width:440px;margin:auto}.pad{padding:12px}.tiny{font-size:.8rem;word-break:break-all}.small{font-size:.85rem}
+.getapp{padding:8px 16px;border-radius:999px;background:linear-gradient(135deg,var(--pri),#14b8a6);box-shadow:var(--sh)}
+@media(max-width:640px){.getapp{padding:6px 12px;font-size:.9rem}}
+.heroapp{margin-top:18px}
