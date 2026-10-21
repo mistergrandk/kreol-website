@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://cybchoqhntuhqxnpcgyv.supabase.co; connect-src 'self' https://cybchoqhntuhqxnpcgyv.supabase.co wss://cybchoqhntuhqxnpcgyv.supabase.co; media-src https://cybchoqhntuhqxnpcgyv.supabase.co; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Diksioner Kreol Morisien — Dictionnaire créole mauricien</title>
+<meta name="description" content="Diksioner Kreol Morisien : plus de 6 000 mots créoles mauriciens avec traductions en français et en anglais, prononciation, exemples et mot du jour.">
+<meta property="og:title" content="Diksioner Kreol Morisien">
+<meta property="og:description" content="Dictionnaire communautaire du créole mauricien — FR / EN.">
+<meta property="og:image" content="icons/icon-512.png">
+<meta name="theme-color" content="#0f766e">
+<link rel="icon" href="icons/favicon.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Diksioner Kreol Morisien","inLanguage":["mfe","fr","en"]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip</a>
+<header class="top">
+  <a href="#/" class="brand"><img src="icons/icon-192.png" alt="" width="36" height="36"><span>Diksioner <b>Kreol</b></span></a>
+  <nav id="nav">
+    <a href="#/browse" data-i="nav.browse"></a>
+    <a href="#/favorites" data-i="nav.fav"></a>
+    <a href="#/submit" data-i="nav.submit"></a>
+    <a href="#/app" data-i="nav.app"></a>
+    <a href="#/admin" data-i="nav.admin"></a>
+  </nav>
+  <div class="tools">
+    <select id="lang" aria-label="Language"><option value="fr">FR</option><option value="en">EN</option><option value="mfe">KM</option></select>
+    <button id="theme" aria-label="Theme">◐</button>
+  </div>
+</header>
+<main id="main" tabindex="-1"></main>
+<footer class="foot"><span data-i="foot"></span> · <a href="#/about" data-i="nav.about"></a></footer>
+<script src="vendor/supabase.js"></script>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
