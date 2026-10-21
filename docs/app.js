@@ -111,7 +111,7 @@ async function home() {
    <ul class="results" id="res" aria-live="polite"></ul></div></section>
    <div class="grid"><div class="card wotd" id="wotd"><h3>☀ ${t('wotd')}</h3>${skel(3)}</div>
    <div class="card" id="stats"><h3>📚 ${t('stats')}</h3>${skel(2)}</div>
-   <div class="card"><h3>📱 ${t('app')}</h3><p class="muted">${t('appTxt')}</p><a class="btn" href="#/app" style="text-decoration:none;display:inline-block">${t('dl')}</a></div></div>`;
+   <div class="card"><h3>📱 ${t('app')}</h3><p class="muted">${t('appTxt')}</p><a class="btn" href="#/app" data-l>${t('dl')}</a></div></div>`;
   const inp = $('#q'), res = $('#res');
   const initial = new URLSearchParams(location.hash.split('?')[1] || '').get('q');
   let tm, seq = 0;
@@ -119,7 +119,7 @@ async function home() {
     const my = ++seq, v = inp.value;
     if (!v.trim()) { res.innerHTML = ''; return; }
     try { const r = await search(v); if (my !== seq) return;
-      res.innerHTML = r.length ? r.map(li).join('') : `<li class="muted" style="padding:12px">${t('noRes')} <a href="#/submit?hw=${encodeURIComponent(v)}">→</a></li>`;
+      res.innerHTML = r.length ? r.map(li).join('') : `<li class="muted pad">${t('noRes')} <a href="#/submit?hw=${encodeURIComponent(v)}">→</a></li>`;
     } catch (e) { res.innerHTML = `<li class="msg err">${esc(e.message)}</li>`; }
   };
   inp.oninput = () => { clearTimeout(tm); tm = setTimeout(run, 160); };
@@ -133,7 +133,7 @@ async function home() {
     const w = data && data[0];
     if (w) $('#wotd').innerHTML = `<h3>☀ ${t('wotd')}</h3><div class="big">${esc(w.headword)}</div><div class="muted">${esc(w.data.ipa || '')} <i>${esc(w.data.pos || '')}</i></div><p>${esc(gloss(w.data))}</p><a href="#/w/${encodeURIComponent(w.id)}">→</a>`;
     const { count: sc } = await sb.from('stories').select('id', { count: 'exact', head: true }).eq('deleted', false);
-    $('#stats').innerHTML = `<h3>📚 ${t('stats')}</h3><p style="font-size:2rem;margin:0;font-weight:800;color:var(--pri)">${n.toLocaleString()}</p><p class="muted">${t('words')} · ${sc || 0} ${t('stories')}</p><a href="#/browse">${t('browse')} →</a>`;
+    $('#stats').innerHTML = `<h3>📚 ${t('stats')}</h3><p class="stat">${n.toLocaleString()}</p><p class="muted">${t('words')} · ${sc || 0} ${t('stories')}</p><a href="#/browse">${t('browse')} →</a>`;
   } catch (e) { console.warn(e); }
 }
 
@@ -145,7 +145,7 @@ async function word(id) {
   setMeta(`${d.headword} — ${t('title')}`, `${d.headword}: ${(d.definitions_fr || []).join('; ')} / ${(d.definitions_en || []).join('; ')}`.slice(0, 160));
   const senses = (d.senses && d.senses.length ? d.senses : [{ pos: d.pos, definitions_fr: d.definitions_fr, definitions_en: d.definitions_en }]);
   const list = (k, a) => a && a.length ? `<h3>${t(k)}</h3><p>${a.map(x => `<a class="tag" href="#/?q=${encodeURIComponent(x)}">${esc(x)}</a>`).join(' ')}</p>` : '';
-  main.innerHTML = `<article class="card word"><div class="row" style="justify-content:space-between">
+  main.innerHTML = `<article class="card word"><div class="row sb">
      <div><h1>${esc(d.headword)}</h1><span class="ipa">${esc(d.ipa || '')}</span> <span class="pos">${esc(d.pos || '')}</span>
      <span class="tag ${data.status === 'needs_review' ? 'warn' : ''}">${t(data.status === 'needs_review' ? 'review' : 'verified')}</span>
      ${(d.tags || []).map(x => `<span class="tag">${esc(x)}</span>`).join('')}</div>
@@ -156,8 +156,8 @@ async function word(id) {
      ${(d.examples || []).length ? `<h3>${t('ex')}</h3>` + d.examples.map(x => `<div class="ex"><b>${esc(x.kreol)}</b><i>${esc(lang === 'en' ? x.en || x.fr : x.fr || x.en)}</i></div>`).join('') : ''}
      ${d.etymology ? `<h3>${t('ety')}</h3><p>${esc(d.etymology)}</p>` : ''}
      ${list('variants', d.variants)}${list('related', d.related)}
-     ${d.source && d.source.primary ? `<p class="muted" style="font-size:.85rem">${t('source')}: ${esc(d.source.primary)}</p>` : ''}
-     <a class="btn alt" style="text-decoration:none;display:inline-block" href="#/submit?entry=${encodeURIComponent(id)}">✎ ${t('suggest')}</a></article>`;
+     ${d.source && d.source.primary ? `<p class="muted small">${t('source')}: ${esc(d.source.primary)}</p>` : ''}
+     <a class="btn alt lb" href="#/submit?entry=${encodeURIComponent(id)}">✎ ${t('suggest')}</a></article>`;
   $('#fav').onclick = () => { toggleFav(id); word(id); };
   const ld = document.createElement('script'); ld.type = 'application/ld+json';
   ld.textContent = JSON.stringify({ '@context': 'https://schema.org', '@type': 'DefinedTerm', name: d.headword, description: gloss(d), inDefinedTermSet: 'Diksioner Kreol Morisien' });
@@ -250,8 +250,8 @@ async function appView() {
     if (!/^https:\/\/cybchoqhntuhqxnpcgyv\.supabase\.co\//.test(j.apkUrl)) throw new Error('bad url');
     $('#rel').innerHTML = `<p><b>${t('ver')}</b> ${esc(j.versionName)} · <b>${t('size')}</b> ${(j.size / 1048576).toFixed(1)} MB</p>
       <p class="muted">${esc(lang === 'en' ? j.notes_en : j.notes_fr)}</p>
-      <a class="btn" style="text-decoration:none;display:inline-block" href="${esc(j.apkUrl)}" rel="noopener">⬇ ${t('dl')}</a>
-      <p class="muted" style="font-size:.8rem;word-break:break-all">SHA-256: ${esc(j.sha256)}</p>`;
+      <a class="btn lb" href="${esc(j.apkUrl)}" rel="noopener">⬇ ${t('dl')}</a>
+      <p class="muted tiny">SHA-256: ${esc(j.sha256)}</p>`;
   } catch (e) { $('#rel').innerHTML = `<div class="msg err">${esc(e.message)}</div>`; }
 }
 
@@ -259,7 +259,7 @@ async function admin() {
   setMeta(`Admin — ${t('title')}`, '');
   const { data: { session } } = await sb.auth.getSession();
   if (!session) {
-    main.innerHTML = `<div class="card" style="max-width:440px;margin:auto"><h1>🔐 ${t('login')}</h1><form class="f" id="lf">
+    main.innerHTML = `<div class="card narrow"><h1>🔐 ${t('login')}</h1><form class="f" id="lf">
       <label>${t('email')}</label><input name="email" type="email" required autocomplete="username">
       <label>${t('pwd')}</label><input name="pwd" type="password" autocomplete="current-password">
       <p class="row"><button class="btn">${t('signin')}</button><button type="button" id="ml">${t('magic')}</button></p><div id="lm"></div></form></div>`;
@@ -271,7 +271,7 @@ async function admin() {
     return;
   }
   const { data: prof } = await sb.from('profiles').select('role,display_name').eq('id', session.user.id).maybeSingle();
-  const head = `<div class="row" style="justify-content:space-between"><h1>🛡 ${t('queue')}</h1><span class="muted">${esc(session.user.email)} · ${esc(prof?.role || 'user')} <button id="lo">${t('logout')}</button></span></div>`;
+  const head = `<div class="row sb"><h1>🛡 ${t('queue')}</h1><span class="muted">${esc(session.user.email)} · ${esc(prof?.role || 'user')} <button id="lo">${t('logout')}</button></span></div>`;
   if (!prof || !['moderator', 'admin'].includes(prof.role)) { main.innerHTML = head + `<div class="msg err">${t('notMod')}</div>`; $('#lo').onclick = logout; return; }
   main.innerHTML = head + `<div class="card" id="ql">${skel(5)}</div>`; $('#lo').onclick = logout;
   const { data, error } = await sb.from('submissions').select('*').eq('status', 'pending').order('created_at').limit(100);
