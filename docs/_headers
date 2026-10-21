@@ -1,0 +1,12 @@
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https://cybchoqhntuhqxnpcgyv.supabase.co; connect-src 'self' https://cybchoqhntuhqxnpcgyv.supabase.co wss://cybchoqhntuhqxnpcgyv.supabase.co; media-src https://cybchoqhntuhqxnpcgyv.supabase.co; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests; frame-ancestors 'none'
+  X-Frame-Options: DENY
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()
+  X-Content-Type-Options: nosniff
+  Cross-Origin-Opener-Policy: same-origin
+/sw.js
+  Cache-Control: no-cache
+/release.json
+  Cache-Control: max-age=60
