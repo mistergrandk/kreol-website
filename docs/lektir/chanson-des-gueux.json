@@ -6,7 +6,7 @@
  "year": "1881",
  "source": "Wikisource (Maurice Dreyfous, 1881) — domenn piblik",
  "status": "partial",
- "progress_km": "Parti 1–7 disponib: Balad Lerwa bann Mandian, tou 'Sante bann mandian', tou 'Bann plant, bann zafer, bann zanimo', ek premie 3 pies 'Lodise vagabon-la'. Lerest pe vini (enkli Ti Avi ek Prefas).",
+ "progress_km": "Parti 1–8 disponib: Balad Lerwa bann Mandian, tou 'Sante bann mandian', tou 'Bann plant, bann zafer, bann zanimo', ek pies I–VIII 'Lodise vagabon-la'. Lerest pe vini (enkli Ti Avi ek Prefas).",
  "note_km": "Tradiksion par IA (Haru), pa ankor revize",
  "sections": [
   {
@@ -189,7 +189,7 @@
    "title_km": "Nesans",
    "group_km": "Mandian lakanpagn · Lodise vagabon-la",
    "type": "verse",
-   "text": "Ena dimounn ki vers enn larm sarite\nPou Zezi ki ne dan enn lakaz bef.\nMwa, mo kone enn desten pli tris.\n\nMo kone enn zanfan ki finn ramase,\nEnn zour desam ki ti pe zele,\nTouni kouma enn ver, dan enn kanal.\n\nLi lanwit. Pa enn sel vwazinn\nPa ofer so lagrenn ouswa so lakwizinn\nAr sa pov mama ki pe gagn dolor.\n\nMalgre so figir ek so danze,\nKisannla ti pou deranz li?\nLi dan enn pei etranze.\n\nAlor, depi dernie letap,\nPe trenn depi enn trou sime ziska enn lot,\nLi ale, zanimo san trou pou kasiet,\n\nZanimo efare ki pe sove,\nEk rod ar so lame enn kwin pou rantre,\nSo lizie gran ouver dan lanwit.\n\nSo ledo lour. So de tete,\nGonfle ar enn dolor ki bril parey,\nPlin kouma de gamel.\n\nSo vant, kot sarbon pe flanbe,\nSanti zanfan-la, garson vagabon,\nKi oule sorti ek pe sote.\n\nLi ale kanmem, pli dousman,\nPe trenn so lipie lour ki so lapat-lipie\nPe sengne. Li ale, fou, pe yorle,\n\nSou, ek, kouma enn boul, li roul dan kanal,\nEk li modi sa zom ki ti gagn so lanvi\nEk ki finn fer li ansint.\n\nFigir ver lesiel, koumadir an extaz,\nLi tortiye. So likou kraze\nLor bann ros ek dan labou.\n\nEnfin li akouse, pandan li pe mor;\nEk sa nouvo ti mandian ki finn arive\nTranble ek kriye dan plin divan.\n\nDivan-la dir, so laser touni.\nOkenn zetwal dan lesiel\nPa vinn salie so lavini.\n\nPena bann Roi Maz, pena kado,\nPena lakrez, pena gardien mouton!\nLi tousel, alonze lor so ledo,\n\nKouma enn kondane ki pe kriye,\nTou nwar kot sa kadav blem-la,\nSan personn lor later ki kontan li;\n\nEk, lor so mama ki so vant ouver,\nMo fer serman, latet touni,\nKi Lot-la pa'nn soufer otan!"
+   "text": "Ena dimounn ki vers enn larm sarite\nPou Zezi ki ne dan enn lakaz bef.\nMwa, mo kone enn desten pli tris.\n\nMo kone enn zanfan ki finn ramase,\nEnn zour desam ki ti pe zele,\nTouni kouma enn ver, dan enn kanal.\n\nLi lanwit. Pa enn sel vwazinn\nPa ofer so lagrenn ouswa so lakwizinn\nAr sa pov mama ki pe gagn dolor.\n\nMalgre so figir ek so danze,\nKisannla ti pou deranz li?\nLi dan enn pei etranze.\n\nAlor, depi dernie letap,\nPe trenn depi enn trou sime ziska enn lot,\nLi ale, zanimo san trou pou kasiet,\n\nZanimo efare ki pe sove,\nEk rod ar so lame enn kwin pou rantre,\nSo lizie gran ouver dan lanwit.\n\nSo ledo lour. So de tete,\nGonfle ar enn dolor ki bril parey,\nPlin kouma de gamel.\n\nSo vant, kot sarbon pe flanbe,\nSanti zanfan-la, garson vagabon,\nKi oule sorti ek pe sote.\n\nLi ale kanmem, pli dousman,\nPe trenn so lipie lour ki so lapat-lipie\nPe sengne. Li ale, fou, pe yorle,\n\nSou, ek, kouma enn boul, li roul dan kanal,\nEk li modi sa zom ki ti gagn so lanvi\nEk ki finn fer li ansint.\n\nFigir ver lesiel, koumadir an extaz,\nLi tortiye. So likou kraze\nLor bann ros ek dan labou.\n\nEnfin li akouse, pandan li pe mor;\nEk sa nouvo ti mandian ki finn arive\nTranble ek kriye dan plin divan.\n\nDivan-la dir, so laser touni.\nOkenn zetwal dan lesiel\nPa vinn salie so lavini.\n\nPena bann Rwa Maz, pena kado,\nPena lakrez, pena gardien mouton!\nLi tousel, alonze lor so ledo,\n\nKouma enn kondane ki pe kriye,\nTou nwar kot sa kadav blem-la,\nSan personn lor later ki kontan li;\n\nEk, lor so mama ki so vant ouver,\nMo fer serman, latet touni,\nKi Lot-la pa'nn soufer otan!"
   },
   {
    "title_fr": "Premier départ",
@@ -211,6 +211,34 @@
    "group_km": "Mandian lakanpagn · Lodise vagabon-la",
    "type": "prose",
    "text": "[Sa powem-la pa finn tradwir. Li rakont enn lamour fizik ant de zanfan miner ek li koz labi ki enn fiy ti sibir kan li ti tou-piti. Nou pa met sa kalite tex lor sa sit-la. Lor lir li an franse, get PDF orizinal-la.]"
+  },
+  {
+   "title_fr": "Idylle sanglante",
+   "title_km": "Idil plin disan",
+   "group_km": "Mandian lakanpagn · Lodise vagabon-la",
+   "type": "verse",
+   "text": "A! A! Zot oule tann zistwar\nMargot ek gran Frize?\nOh! Oh! Frize ti kontan bwar;\nMargot osi, me lot kote.\nMargot finn met so zip ek so bas,\nEk li'nn al laba, laba.\n\nA! A! Se anba lamonn dible\nKi Margot ti pe kalin lot-la, so galan.\nOh! Oh! Frize, labous plin diven,\nFinn ariv kot lamonn zis bon moman.\nSo zip leve pli lao ki so bas,\nMargot ti pe riye laba, laba.\n\nA! A! Li ti pe dir, ki komik sa!\nMo kokou pe ranpli li, mo osi mo kapav.\nOh! Oh! Frize finn kriye, sa garse!\nTo tro so, mo pou fer twa vinn fre.\nMargot finn zet so zip lor so bas\nEk li'nn sove laba, laba.\n\nA! A! Galan-la, ki pa ti brav,\nFinn les Margot ar Frize.\nOh! Oh! Frize, pe mas so lakim,\nFinn tir so kouto bien file.\nMargot dan so zip ek so bas\nFinn trebise laba, laba.\n\nA! A! Pov Margot, sa zoli fam,\nLi'nn gagn kouto dan so likou.\nOh! Oh! Frize finn dans lor li\nEk apre li'nn lav so lame dan dilo.\nMargot lor so zip ek so bas\nFinn met disan laba, laba.\n\nA! A! Frize dir, aster to'nn mor!\nEk sa gran bebet-la finn koumans plore.\nOh! Oh! Li ti pe plore, bizin mo anport\nEnn ti souvenir pou ador li.\nEk li'nn pran zip-la ek bas-la,\nEk li'nn ale laba, laba.\n\nA! A! Personn pa kone ki li fer\nDepi ki li roul lor bann gran sime.\nOh! Oh! Kitfwa li'nn vinn enn bon-a-nanie,\nBwar-tro kouma sarter, ouswa lonz-lame.\nMe li ena zip-la ek bas-la\nPou konsol li laba, laba."
+  },
+  {
+   "title_fr": "Sonnet bigorne (argot classique)",
+   "title_km": "Sone dan langaz bann voler (largo lontan)",
+   "group_km": "Mandian lakanpagn · Lodise vagabon-la",
+   "type": "prose",
+   "text": "[Sa sone-la ekrir dan vie largo bann voler franse; li fini lor enn lamour fizik ar enn tifi zenn, ki nou pa kapav sir so laz. Nou pa finn tradwir li.]"
+  },
+  {
+   "title_fr": "Autre sonnet bigorne (argot moderne)",
+   "title_km": "Enn lot sone largo (largo modern)",
+   "group_km": "Mandian lakanpagn · Lodise vagabon-la",
+   "type": "verse",
+   "text": "Mo'nn sove. Mo ti ena latranblad\nBann zandarm prefektir Pantin.\nPantin, ala tapaz!\nLaba zot konn mo likou,\n\nMo figir, mo nene ki leve,\nMo lizie gayar ki konn tou.\nApre mo dernie kout-lame\nMo'nn zet pwav dan lizie lapolis.\n\nZot pou rode, depi lakaz ziska lakaz lwaye,\nDepi Menilmuche ziska Montparno,\nSan zame retrouv mo figir.\n\nMo deguize mwa an pelikan.\nMo ena pay dan mo seve.\nViv labaz lakanpagn!"
+  },
+  {
+   "title_fr": "Ballade du rôdeur des champs",
+   "title_km": "Balad rodeur lakanpagn",
+   "group_km": "Mandian lakanpagn · Lodise vagabon-la",
+   "type": "verse",
+   "text": "Personn pa kapav dir kot mo dormi:\nMo pena ni lili ni amak.\nMo pa konn okenn lot lamwar\nApart mo vant.\nMe mo'nn plant mo kan\nDan pei bann maroder,\nKot, san lalwa, san drwa, san trak,\nMo bon mandian ki rode.\n\nKan loulou ena lasas deryer li, li sorti dibwa.\nKan lafin lasas mwa, krak!\nMo tann enn pyez pou dizef:\nBann poul fer kot-kot-kodak\nEk ponn dan mo sak.\nApre dan enn lakav an kasiet\nMo bwar diven, sidr ouswa konyak.\nMo bon mandian ki rode.\n\nKan mo'nn sifle enn lit ouswa enn krous diven,\nMo servo vinn tou melanze;\nPe bourdonn kouma enn rous mous-dimiel,\nMo disan fer tik-tak, tik-tak.\nLerla mo desann kot lak\nKot enn zoli fam pe sante\nKi pran mwa pou so koson.\nMo bon mandian ki rode.\n\nANVWA\n\nPrens ar fes ble kouma enn lak,\nZandarm ki so lizie pe pers mwa,\nPik to seval, ale! Klik, klak!\nMo bon mandian ki rode."
   }
  ]
 }
