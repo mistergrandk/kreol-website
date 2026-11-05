@@ -103,9 +103,10 @@
    "title_fr": "Braves gens",
    "year": "1886",
    "part": "Romans",
-   "status": "complete",
+   "status": "in_progress",
    "slug": "braves-gens",
-   "title_km": "Bann brav dimounn"
+   "title_km": "Bann brav dimounn",
+   "progress_km": "X ekspande"
   },
   {
    "title_fr": "Césarine",
