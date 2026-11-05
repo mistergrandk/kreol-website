@@ -55,7 +55,10 @@
    "title_fr": "Les Morts bizarres",
    "year": "1876",
    "part": "Nouvelles",
-   "status": "pending"
+   "status": "partial",
+   "slug": "morts-bizarres",
+   "title_km": "Bann Lamor Bizar",
+   "progress_km": "Pe tradir: 2 lor 14 zistwar"
   },
   {
    "title_fr": "La Glu",
