@@ -5,7 +5,7 @@
  "author": "Jean Richepin",
  "year": "1920",
  "source": "Archive.org / Wikisource (Tours, Mame, 1920; Revue des Deux Mondes) — domenn piblik",
- "status": "in_progress",
+ "status": "complete",
  "note_km": "Tradiksion par IA (Haru), pa ankor revize. De poem (Fanfan-la-Tulipe, Le Tambour-Major) mank dan scan IA/Gallica (paz mankan).",
  "sections": [
   {
@@ -170,7 +170,83 @@
    "type": "verse",
    "text": "Anou sant Magnifikat ek pa De profundis\nPou zot, bann kirasie, bann garson ot tay\nKi batay modern pa servi pli.\nSali, o paladin, lerwa bann pre zadis!\n\nKi ete, o pri zot, bann pli fier Amadis?\nVant a later, o galop, pe frape estok, tay,\nSir ki ek lamor zot ti fer akorday,\nZot ti sarz bann boule, pa ete ki enn kont dis:\n\nEk zot ti soufflete zot, bann zean, ar bann kou sab;\nEk sa sarz-la ti sarz makabr\nKi okenn sef depi lerla pa pou ete soner;\nEk zot reste koumsa, vainki, me dan glwar,\nAyan fer tye zot senpleman pou loner,\nBann dernie sovalyé ki Listwar pou'nn konn.",
    "group_km": "Bann powem"
+  },
+  {
+   "title_fr": "Le Marsouin",
+   "title_km": "Marsouin",
+   "type": "verse",
+   "text": "Tou tousel lao mirador,\nA ki to pe reve ver lespas,\nFransé? Eski to zwazo rapas,\nVoler later ek roder lor?\n\nNon, pli nobl to lespwar;\nKar seki flanbe dan to lizie\nLor sa pei silansie,\nSe nam ardan Franse,\n\nNam bann zanset galwa\nKi ti kour tou later\nPa par firèr militer\nNi pou eksploite zot bann eksplwa,\n\nMe pou ki apre telman aventir\nPye an fler liberte,\nKi partou zot disan finn plante,\nAbri bann ras fiti;\n\nEk mem a bann pep pli vie\nInfize sa bann nouvo sev.\nSe a ki, tousel, laba lao, to pe reve,\nKolonial misterie.",
+   "group_km": "Bann powem"
+  },
+  {
+   "title_fr": "2 août 1914",
+   "title_km": "2 out 1914",
+   "type": "verse",
+   "text": "Mer, ar enn vwa ferm, byen ki meri,\nFinn lir lafis. Li lor mir meri.\nKlòs finn rapel tou bann garson labour.\nEnn ti de trez an, grav, pe bat tanbour.\nEnn vie, pou depar, fek ofri so saret;\nKar tou de sit bizin parti. Sakenn prepare.\nLord formal, ek personn pa renakl. Bizin.\nFam ek bann zanfan pe plore. Zom, fron ot,\nPresse zot tour a tour lor so rid pwatrin,\nMe san larm. Sourd tanbour ki tanbourinn\nEk toksin ki pe ral ar bann kri stridan\nEtoufe so bann sanglo mase antre so dan.\nNon, to pa kontan li, lager ki bann mama\nDeteste. Dan to leker, telman bel simer\nFinn seme telman lespwar fou ki to repas,\nO pov zom pe reve lape iniversel\nKot tou zanr imen pa pein ki a bann semay\nKi bann ansien, mama ek bann marmay viv!\nEk se fini. To pe al bat. Wi, peyizan,\n\nSeki to dwet seme zordi, se to disan!\nPou Later, to pa pou ekonom ar li,\nEk to fam, ki li ete, kapav konte lor so zom.",
+   "group_km": "Bann powem"
+  },
+  {
+   "title_fr": "La Marne",
+   "title_km": "Lamarne",
+   "type": "verse",
+   "text": "Kot to soti, flux toransiel\nPe balaye ziska bout lesiel\nSa vie sol kre ek marn\nDan ki bann Bos vannker\nTi sir antere nou bann leker?\nSe depi twa, Marne.\n\nKot triyonfator mastok\nAnba nou premie kou estok\nTi tonbe depi lao so karn,\nParey a sa Atila,\nKi, li osi, ti karkas laba?\nSe lor Lamarne.\n\nTi rivyer ar gran non,\nPalas nou Partenonn,\nTou Franse an twa incarné.\nViv Zòfr ek so bann pwalu ble!\nViv to diven mirakile!\nViv twa, Marne!",
+   "group_km": "Bann powem"
+  },
+  {
+   "title_fr": "Le Chalutier",
+   "title_km": "Salitie",
+   "type": "verse",
+   "text": "Se Petrel, Saint-Malo.\nSalitie lor lamer bretonn,\nLi ti tire, metye monoton,\nBann pwason vivan or dlo.\n\nPli ge zordi, so bezogn!\nLi fouy ankor, me orizon,\nAnba ki rode, an trayizon,\nAfre sous-marin san vergogn\n\nPe kondann a bann pli move trepas,\nDan so selerates imond,\nBann fam, zanfan, peser, lemonn\nDezarme ki pa pe bat.\n\nSoit! Petrel sanze travay.\nOlie enn sali, enn kanon!\nLi pou merit so non.\nPetrel pa kontan ki loraz.\n\nEk Petrel Saint-Malo,\nSi li trouv rekin bos pwend,\nPou anvway li ar enn kou zwenn zot,\nBann pwason kreve, fon dlo.",
+   "group_km": "Bann powem"
+  },
+  {
+   "title_fr": "Le Fusilier marin",
+   "title_km": "Fizilie maren",
+   "type": "verse",
+   "text": "Fizilie maren ar rouz ponpon\nPa per a later enn kou tanpon\nEk fer parfwa kèy dan enn bouz;\nMe li retremp, enn fwa an mer;\nOr, ti parey a lamer, Lizer,\nEski pa, mo garson, zom ar ponpon rouz?\n\nDlo zon, lesiel gri, nou krwar a bor.\nIsi kreno, kif-kif enn sabor!\nLizie o pwen mir, ek dife lor ki bouze!\nEk kan ti bizin sorti kreno,\nNou ti met laba, pe tye an plen dlo,\nA bayonet osi ponpon rouz.\n\nSi bien ki, parmi nou bann pli fier pwalu,\nLi ti, lor later ek lor mer, pli.\nKont Bosi ar trogn gouz\nLager pa ti ena pli bon gerie;\nO Franse, a to fron divin lorie\nPou kokard an fler ena so ponpon rouz.",
+   "group_km": "Bann powem"
+  },
+  {
+   "title_fr": "Le 75",
+   "title_km": "75",
+   "type": "verse",
+   "text": "Kouma so ser bayonet,\nLi long, ar enn lign net.\n\nKouma li, ar so ler etrowa,\nLi porte lwin ek frape dwat.\n\nBek uver, ser pret,\nTi pe plane laba lao afre bet.\n\nVer leg klangoran laba lao\nNou met los o pwen ki bizin.\n\nAr enn kou sek obis parti, ale, sifl.\nLeg resevwar an plen so zifl.\n\nDan lesiel, so ble promenwar,\nLeg tourbiyon, ta nwar.\n\nLi degringol, pe ebourife,\nPe klak bek, fou ar grif,\n\nApre vinn tonbe o pie terien,\nLok mol ki pa nanye pli.",
+   "group_km": "Bann powem"
+  },
+  {
+   "title_fr": "La Lettre du pépère",
+   "title_km": "Lèt peper",
+   "type": "verse",
+   "text": "Dan transè, a abri gnon,\nPandan trwa pe fer enn maniy,\nVie peper finn met so lorgnon;\nSe pou ekrir a so fami.\n\nKi so let dir? Ebe! ki li pe ale bien,\nKi nou tini touzour, ki sa kontinye...\nMe sa let kot nanie pa dir,\nLi pou bienvini.\n\nNou pou reponn mem fason:\nKi nou pe travay ek ki nou espere,\nKi nou dan san, labour ouswa mwason...\nMe sa sufi peper.\n\nSe depi sa bann nanye ki fer tou\nZot listwar ek nou listwar.\nIsi, laba, mem lavi! O bout,\nLi pou sorti viktwar.\n\nKan alor, anba nou bann Enstiti,\nDan sa bann dimounn-la pou rann, o Franse,\nOmaz a to de gran verti,\nUmbl kouraz ek landirans?",
+   "group_km": "Bann powem"
+  },
+  {
+   "title_fr": "Le Bluet",
+   "title_km": "Bliye",
+   "type": "verse",
+   "text": "Kolos Pomerani\nPre enn ti bliye galwa,\nSe anblem nou bann eksplwa\nKi pe fleri dan sa ironi.\n\nZot sink, sis, dis, enn ta,\nBann zean, petet Gard;\nEk se li ki, fier, pe gete zot,\nTi-la, ek depi lao anba.\n\nZot finn kriye Kamerad!\nLi'nn fer zot prizonie, wi.\nA li glwar! A zot lani!\nEk sakenn pran pou so grad.\n\nLi mins ek zot gro;\nN'anpes ki li zot metr.\nDam! Pa plis o pwa ki o metr\nSa pa zoz, bann ero!\n\nKot nou eroyism se prekos;\nEk zot lizie bese anba so\nFer zot bann ti Prisien\nPre li, gran Fransé, sa gos!",
+   "group_km": "Bann powem"
+  },
+  {
+   "title_fr": "Le Pinard",
+   "title_km": "Pinar",
+   "type": "verse",
+   "text": "Laba lao, bim, boum! Ki patatra!\nAnba, pou tou kopin, bann ra!\n\nBann pie dan dlo. Sa, se sever.\nMe pinar mo bidon\nFer glouglou ziska bedon.\nPa bizin fer sagrin!\n\nGras a li, touzour leker so.\nKont li, depi anba ouswa depi lao,\nOkenn kafar pa persever.\nDiven rouz kot tou nwar fonn,\nKoule, koule dan mo antounwar.\nPa bizin fer sagrin!\n\nBos ek kafar, de ide.\nSir, nou pou gagn zot tou de.\nTo reponn mwa, twa, zafer.\nKan nou ena sa dan koko,\nNou sant ki? Kokoriko!\nPa bizin fer sagrin!",
+   "group_km": "Bann powem"
+  },
+  {
+   "title_fr": "Le Triomphe du Poilu",
+   "title_km": "Triyonf Pwalu",
+   "type": "verse",
+   "text": "Li'nn pase anba Lark Triyonf, an vannker,\nMe san orgèy o fron, byen ki lazwa o leker.\n\nTou bann siek pase tou nou listwar\nFinn, ar enn prezanter zarm, onore viktwar;\nEk Franse, ek Lerop, ek lemonn ti la;\nEk lesiel mem ti ena so rob gala.\n\nDan sa Pari, pli gran ki Aten ek ki Rom,\nLi, sepandan, a ki ti pe panse, pov zom?\nPetet a tou sa. Petet osi ki non.\nSe Pwalu, san plis. Li pa ena lot non.\nSo devwar, sa fwa, ti enorm, imans;\nMe, touzour fer li, li ena lakoutimans.\n\nEk alor, ayan trouv so-mem pou sa-la tou pare,\nLi ena, anba so barda, triyonf diskre,\nEk kontante senpleman sousir li\nAr so bril-gel o kwin so sourir.",
+   "group_km": "Bann powem"
+  },
+  {
+   "title_fr": "Le Retour à la terre",
+   "title_km": "Retour a later",
+   "type": "verse",
+   "text": "To laba retour, peyizan, a Later!\nTo pe reprann to laber enn eternel susi.\nEro ki to ti laba, to se isi.\nPorte li fierman, to bonnet militer.\n\nSif to bann mor la, san komanter,\nPou montre ki Franse ek ki Lemonn osi\nDwet zot sali, o peyizan!... Mersi!\nMwa, mo reste a zame to umbl tributer.\n\nKan pou vinn mwa, biento, ineliktabl zour\nVre, definitif ek siprem retour\nA Later, a gleb ogist ek maternel,\nEski pa twa, mo garson, travayer mervèye,\nKi pou'nn asire mwa ena li, liber, an li,\nBon kwin bon li kot bann aïeu dormi?",
+   "group_km": "Bann powem"
   }
- ],
- "progress_km": "23/34 seksion (ziska Reichshoffen)"
+ ]
 }
