@@ -111,7 +111,10 @@
    "title_fr": "Césarine",
    "year": "1888",
    "part": "Romans",
-   "status": "pending"
+   "status": "in_progress",
+   "slug": "cesarine",
+   "title_km": "Césarine",
+   "progress_km": "I (1/~24)"
   },
   {
    "title_fr": "Miarka, la fille à l'ourse",
