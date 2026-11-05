@@ -39,7 +39,10 @@
    "title_fr": "La Mer",
    "year": "1886/1894",
    "part": "Poésie",
-   "status": "pending"
+   "status": "partial",
+   "slug": "la-mer",
+   "title_km": "Lamer",
+   "progress_km": "Parsiel: 10 seksion tradwir"
   },
   {
    "title_fr": "Mes paradis",
