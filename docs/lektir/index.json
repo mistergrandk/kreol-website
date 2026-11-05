@@ -63,7 +63,10 @@
    "title_fr": "La Glu",
    "year": "1881/1883",
    "part": "Romans",
-   "status": "pending"
+   "status": "partial",
+   "slug": "la-glu",
+   "title_km": "Lagli",
+   "progress_km": "Pe tradir: 2 lor 30 sapit (plis dedikas)"
   },
   {
    "title_fr": "La Bombarde",
