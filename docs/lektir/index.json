@@ -47,7 +47,10 @@
    "title_fr": "Mes paradis",
    "year": "1894",
    "part": "Poésie",
-   "status": "pending"
+   "status": "partial",
+   "slug": "mes-paradis",
+   "title_km": "Mo bann paradi",
+   "progress_km": "Pe tradir: Viatik (Leter dedikas + Prelimin fini)"
   },
   {
    "title_fr": "Les Morts bizarres",
