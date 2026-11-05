@@ -23,7 +23,10 @@
    "title_fr": "Les Caresses",
    "year": "1877",
    "part": "Poésie",
-   "status": "pending"
+   "status": "partial",
+   "slug": "caresses",
+   "title_km": "Bann Kares",
+   "progress_km": "Parsiel: 11 powem tradwir"
   },
   {
    "title_fr": "Les Blasphèmes",
