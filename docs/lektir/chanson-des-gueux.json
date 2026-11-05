@@ -6,7 +6,7 @@
  "year": "1881",
  "source": "Wikisource (Maurice Dreyfous, 1881) — domenn piblik",
  "status": "partial",
- "progress_km": "Mandian lakanpagn konple. Mandian Pari: Pou Raoul Ponchon + 'Kat sezon' I–XVII. Pe vini: lerest Mandian Pari ek Ti Avi ek Prefas.",
+ "progress_km": "Mandian lakanpagn konple. Mandian Pari: Pou Raoul Ponchon + tou 23 'Kat sezon'. Pe vini: 'Dan pei Largonji' ek lerest, ek Ti Avi ek Prefas.",
  "note_km": "Tradiksion par IA (Haru), pa ankor revize",
  "sections": [
   {
@@ -371,7 +371,7 @@
    "title_km": "Premie lazele",
    "group_km": "Mandian Pari · Kat sezon",
    "type": "verse",
-   "text": "Vwala Liver pe vini, touyer bann pov dimounn.\nKouma enn baron dir ki ena bann sarzan devan li,\nPou anons li, li fer kouri ole long bann lari\nLazele ar so dwet blan ek bann labriz grinyen.\nNou tann pe souf for bann ti-marmay\nKi pe sove, pe koll zot lalev lor zot lame,\nEk pe tap for zot lipie lor later sek.\nLisien-la, san santi nanie, file kouma enn fles.\nBann misie ar sapo, red ek boutonne,\nFer zot ledo ron, ek plonz zot nene dan zot kolet.\nBann fam, kouma bann kourer lor lapis,\nLestoma an avan, lakoud an arier,\nLezin kanbre. Zot pa, ar enn mouvman malin,\nFer zot zip balans lor zot fes.\n\nOh! Ki zoli sa, premie lazele!\nLavit, ki fre deor pe fwete,\nBriye, landan, ar bann kristal fin,\nEk pe kliyote anba nakr bann mika\nKi zot desin fleri an spiral fey.\nBann pie abiye ar enn swa ki krak.\nLesiel ena palerr fin vie larzan.\nVwala Liver pe vini, touyer bann pov dimounn.\n\nVwala Liver pe vini dan so palto laglas.\nPlas pou Lerwa ki pe avanse pe grogne, plas, plas!\nEk labriz, ar gran kout fwet lor bann mole,\nFer ti-marmay-la kouri. Divan dan kolet\nBann misie boutonne fourr bann san zepeng.\nBann lisien paret pe trenn baro dan bout zot ledo.\nEk bann fam, kan zot santi bann ti dwet malin\nPe mont an kasiet anba zot dernie zipon,\nTap zot zenou pou sere pli bien zot lakwis.\nBann lakaz dan lesiel pe fime kouma bann Swis.\n\nKot dife gaye bann misie ar sapo\nPou al asize; lasaler pou fer zot lapo mol.\nBann fam, pe lev zot zip ziska mwatie lazanm,\nPou protez zot figir kont bwa ki pe flanbe\nPou lonz zot de lame long ar dwet roz,\nKi enn galan tann pou fer vinn mou anba bizou.\nEre sa bann-la ki enn bon lasam so pe atann!\nMe ti-marmay ki pe kouri, me vie lisien ki pe rode,\nMe bann mandian, bann ti, tas bann mizerab…\nVwala Liver pe vini, touyer bann pov dimounn."
+   "text": "Vwala Liver pe vini, touyer bann pov dimounn.\nKouma enn baron dir ki ena bann sarzan devan li,\nPou anons li, li fer kouri ole long bann lari\nLazele ar so dwet blan ek bann labriz grinyen.\nNou tann pe souf for bann ti-marmay\nKi pe sove, pe koll zot lalev lor zot lame,\nEk pe tap for zot lipie lor later sek.\nLisien-la, san santi nanie, file kouma enn fles.\nBann misie ar sapo, red ek boutonne,\nFer zot ledo ron, ek plonz zot nene dan zot kolet.\nBann fam, kouma bann kourer lor lapis,\nLestoma an avan, lakoud an arier,\nLezin kanbre. Zot pa, ar enn mouvman malin,\nFer zot zip balans lor zot fes.\n\nOh! Ki zoli sa, premie lazele!\nLavit, ki fre deor pe fwete,\nBriye, landan, ar bann kristal fin,\nEk pe kliyote anba nakr bann mika\nKi zot desin fleri an spiral fey.\nBann pie abiye ar enn swa ki krak.\nLesiel ena palerr fin vie larzan.\nVwala Liver pe vini, touyer bann pov dimounn.\n\nVwala Liver pe vini dan so palto laglas.\nPlas pou Lerwa ki pe avanse pe grogne, plas, plas!\nEk labriz, ar gran kout fwet lor bann mole,\nFer ti-marmay-la kouri. Divan dan kolet\nBann misie boutonne fourr bann san zepeng.\nBann lisien paret pe trenn baro dan bout zot ledo.\nEk bann fam, kan zot santi bann ti dwet malin\nPe mont an kasiet anba zot dernie zipon,\nTap zot zenou pou sere pli bien zot lakwis.\nBann lakaz dan lesiel pe fime kouma bann Swis.\n\nKot dife gaye bann misie ar sapo\nPou al asize; lasaler pou fer zot lapo mol.\nBann fam, pe lev zot zip ziska mwatie lazanm,\nPou protez zot figir kont bwa ki pe flanbe\nZot pou lonz zot de lame long ar dwet roz,\nKi enn galan tann pou fer vinn mou anba bizou.\nEre sa bann-la ki enn bon lasam so pe atann!\nMe ti-marmay ki pe kouri, me vie lisien ki pe rode,\nMe bann mandian, bann ti, tas bann mizerab…\nVwala Liver pe vini, touyer bann pov dimounn."
   },
   {
    "title_fr": "Jour des morts",
@@ -393,6 +393,48 @@
    "group_km": "Mandian Pari · Kat sezon",
    "type": "verse",
    "text": "« Tan dimounn kriye Nwel, li vini. » (François Villon)\n\nSe vre li vini, ek nou kriye li!\nMe pa ar enn kor kler,\nKan nou gorz blese\nPar liver ar so zong ki grife.\nElas! Ar enn rale ki touf\nNou salie li sak lane\nKot sa bann ki li zel kan li arive,\nSa bann ki pena simine.\n\nLi aparet, figir fleri,\nPli gaye ki soley ki pe leve,\nPe amenn lafet ek gate,\nBonbon, zouzou, kado, devan\nBebe ris ki triyonfe.\nMe ki zourne dir ek tris\nPou bann pov ki vant plin divan,\nSa bann ki pena simine.\n\nEre zanfan ser ki priye\nPou so soulie ar so ne gonfle,\nPou ki Zezi sourir li!\nPou bann mandian, desten anpes zot.\nZot soulie dir, souvan perse,\nDan ki lasann swa\nZot ti pou met li, pe reve,\nSa bann ki pena simine.\n\nANVWA\n\nPrens, gagn pitie pou zanfan\nKi so figir sek kouma parsmen.\nFer Nwel ar sof\nSa bann ki pena simine."
+  },
+  {
+   "title_fr": "Noël misérable",
+   "title_km": "Nwel mizerab",
+   "group_km": "Mandian Pari · Kat sezon",
+   "type": "verse",
+   "text": "Nwel! Nwel! Pou pov dimounn\nBizin vremem enn tigit larzan,\nPou aste dipen, ek enn de linz.\nTi zanfan, ti Zezi,\nAr larzan ki zot finn gagne\nLi ti pou ranpli boukou pip.\n\nNwel! Nwel! Bann amoure\nBien ere, parski se pou zot\nKi finn fer palto gri labrim.\nSonne, lakloss! Lakloss, sonne!\nPov diab-la dan so nene\nTann bann lagrip pe sonn karyon.\n\nNwel! Nwel! Bann bon devo\nAl sante kouma bann ti bef,\nKot bourik, lor lipie lakrez.\nNou zom ti pou trouv pli nouvo\nManz enn bout lavyann bef,\nEk li dir sa santi laser fre.\n\nNwel! Sa santi reveyon,\nBann gran bon dife plin rayon,\nEk gran manze, ek lazwa,\nZambon roz ar so bor tranblan,\nBoudin nwar ek diven blan,\nEk bann maron ki zwa finn ponn.\n\nEk mizerab-la laba\nTrouv lakrez kouma enn sak\nPlin ar lavyann ek gro manze,\nEk ladan, sirtou, sa ki plet li\nSe enn zoli ti koson-dile…\nSe zanfan Zezi lor so pay.\n\nNwel! Nwel! Pret-la dir\nKi Bondie finn desann parmi nou\nPou konsol pov malere.\nSa enn-la ti a kontan enn tigit\nBwar pou lasante bon Bondie;\nMe Bondie pa'nn met nanie dan so verr.\n\nNwel! Nou ferme. Ale, al twa!\nEre ankor si Satan,\nKi kot nou sa bann zour-la perdi so sime,\nFer twa trouve dan rigol\nEnn lezo kot ena ankor enn bon bout\nEk enn mwatie sigar!\n\nNwel! Nwel! Bann malere\nPena nanie pou zot apart enn vant vid\nKi tou dousman grogne kouma enn zanimo sovaz,\nTelman ki bourzwa-la, kan li trouv\nZot lizie dan lonbraz pe flanbe,\nOlie donn zot, li sove."
+  },
+  {
+   "title_fr": "La petite qui tousse",
+   "title_km": "Tifi ki touse",
+   "group_km": "Mandian Pari · Kat sezon",
+   "type": "verse",
+   "text": "Zegwi divan fre\nPran nene ek dwet\nPou zot pelot.\nKisannla lor lartwar blan\nSa ti lekzistans nwar ek tranblan\nKi pe sanglote?\n\nPov ti zanfan! Gete.\nLatous, ar kout sakade,\nSakouy li,\nEk labriz ki mord li\nMet bann roz lamor\nLor so lazou.\n\nBann violet mwins\nViolet ki bann kwin\nSo lalev,\nKi anba so lizie\nBlese par bizou ble\nLafiev.\n\nTouse! Touse! Ankor! Enn ler\nKoumadir nou tann marto\nEnn forzron;\nEnn lot ler rale-la pli kler\nKouma enn klerron sonn enn lamizik\nDan so gorz.\n\nTouse! Touse! Touse! Ankor!\nOh! Sa lakor rao ek dir\nKi pe riye!\nSa klerron larz ek profon\nSonn pou sa bann ki pe ale\nReveye.\n\nTouse! Se kri pwintou\nEnn nwaye lour ki pe desann\nAnba lekim.\nTouse! Li lwin, lwin,\nKouma enn glas ki pe tengn\nDan labrim.\n\nTouse! Touse! Enn dernie kout!\nLi les tonbe lor so likou\nSo latet,\nKouma enn laflam anba labriz;\nEk pou lape latonm\nLi pare.\n\nLi pou marye sa aswar-la,\nSan bouke, san lansenswar,\nSan lamizik,\nPli vit ki nou ti krwar,\nAr liver, sa vie fianse\nBann tibesikile."
+  },
+  {
+   "title_fr": "Ballade pour les pauvres petits pierrots",
+   "title_km": "Balad pou bann pov ti moino",
+   "group_km": "Mandian Pari · Kat sezon",
+   "type": "verse",
+   "text": "Lanez res la, vremem.\nSoley rek alim enn tigit\nVer midi, dan lesiel\nKoulerr lasi ek bitim.\nNou fer bien dife; me sa fime!\nBann laglas trouble lavit.\nKi letan, sa fre dan sa labrim-la,\nPou bann pov ti moino!\n\nKan nou al deor enn moman\nAtraver lafredir ek lagrip,\nNou trouv zot tonbe lour,\nKouma enn ros dan lekim,\nLor lanez ki antere zot.\nSo blansir fer zot vinn nwar-nwar.\nLiver, se zis lamor\nPou bann pov ti moino!\n\nDan bann sanbr lao osi\nEna lezot ki pe manze\nPar lozre, gourman laser fre.\nBann bebe, ki nou abitie\nAnvlop dan linz blan,\nPe zele touni anba bann ti rob.\nZot mama dan lamertim\nPou bann pov ti moino!\n\nANVWA\n\nPrens, to servi, mo krwar,\nKouvertir plim. Desir zot enn tigit\nEk tir ladan enn tigit plim\nPou bann pov ti moino!"
+  },
+  {
+   "title_fr": "La neige est drôle",
+   "title_km": "Lanez li komik",
+   "group_km": "Mandian Pari · Kat sezon",
+   "type": "verse",
+   "text": "Lanez li komik. Vlan! Enn bousonn blan rant dan\nTo lizie. Anmemtan, lor to nene rouz\nEnn flokon gran kouma enn lame vinn plati.\nKi kalot! Tou liver konsantre ladan.\n\nPaf! Enn lor so ledo. Pouf! Lot lor so vant!\nKaranbolaz, bon! Pasan san leker-la,\nPrese fer parey, eklat riye, ek ti-marmay\nFer badinaz pe kriye: « Pil ou fas pou sa bet-la! »\n\nNou ti pou fase vremem. Me kwa? Nou mem, nou riye.\nParski tou si komik! Lanez ena lespri\nEk fer drol bann zafer ki li deform.\n\nBann seval lomnibis ena ermin lor zot likou;\nPanteon pran ler enn gran bone dormi,\nEk dan sak stati aparet enn Pierrot."
+  },
+  {
+   "title_fr": "La neige est triste",
+   "title_km": "Lanez li tris",
+   "group_km": "Mandian Pari · Kat sezon",
+   "type": "verse",
+   "text": "Lanez li tris. Anba lavalans krouel\nBann mandian, bann pie-touni, ale pe tranble.\nOh! Ki letan sinis, oh! Ki letan san pitie\nPou sa ki pena dife, ni dipen lor latab!\n\nBann lavit kase, laport ouver tousel,\nLanez par bann trou rantre ar divan…\nBann zanfan, mal anvlope dan pov tartan,\nTrouv lor bout enn tete ble gout blan pe zele.\n\nEk dan sa letan lamor, papa-la pe travay,\nDeor. Lazele fer perl lor pwal so lestoma.\nSo poumon bwar ler glase ki pe pwagnarde li.\n\nLi santi so lekor pe vinn red, li rale, li tonbe, fatige,\nPandan ki lesiel moker pe kard pou li,\nKoumadir pou invit li dormi, enn matla."
+  },
+  {
+   "title_fr": "La neige est belle",
+   "title_km": "Lanez li zoli",
+   "group_km": "Mandian Pari · Kat sezon",
+   "type": "verse",
+   "text": "Lanez li zoli. O pal, o fre, o vierz trankil,\nSalit! To saret laglas, bann lours ki pe trenn li,\nEk lesiel fonse tann lor so sime\nEnn lasiel satin zonn ek gri koulerr sierz.\n\nSalit! Dan to palto doubl ar lalinn blan,\nDan to zipon ki pe flote, an koton ek velour\nKi etal an gran pli san tas ek lour,\nLemond finn disparet. Nanie vivan pa sorti.\n\nKontour anvlope, tapaz andormi,\nTou efase ek res trankil anba sa tapi epe.\n\nLanez pe tonbe, se lanez ki andormi, lanez\nKi pa fer tapaz, se lanez dan lanwit.\nTonbe, kouver lavi atros ek sakrilez,\nO lis misterye ki perdi to fey san tapaz!"
   }
  ]
 }
