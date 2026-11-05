@@ -312,14 +312,14 @@ async function lektir(slug) {
     const ix = await getJ('lektir/index.json');
     const done = ix.works.filter(w => w.slug), todo = ix.works.filter(w => !w.slug);
     main.innerHTML = `<div class="card lk"><h1>Lektir</h1><p>Bann zev ${esc(ix.author)} tradwir an Kreol Morisien.</p><p class="tag">${esc(ix.note_km)}</p>
-      <h2>Disponib (${done.length}/${ix.works.length})</h2><ul class="lkl">${done.map(w => `<li><a href="#/lektir/${esc(w.slug)}"><b>${esc(w.title_km)}</b></a><br><small>${esc(w.title_fr)} · ${esc(w.year)}</small></li>`).join('')}</ul>
+      <h2>Disponib (${done.length}/${ix.works.length})</h2><ul class="lkl">${done.map(w => `<li><a href="#/lektir/${esc(w.slug)}"><b>${esc(w.title_km)}</b></a><br><small>${esc(w.title_fr)} · ${esc(w.year)}</small>${w.status === 'partial' ? ` <span class="tag">${esc(w.progress_km || 'Parsiel')}</span>` : ''}</li>`).join('')}</ul>
       <h2>Pe vini</h2><ul class="lkl muted">${todo.map(w => `<li>${esc(w.title_fr)} <small>· ${esc(w.year)} · ${esc(w.part)}</small></li>`).join('')}</ul></div>`;
     return;
   }
   if (!/^[a-z0-9-]+$/.test(slug)) throw new Error('?');
   const w = await getJ('lektir/' + slug + '.json');
   main.innerHTML = `<article class="card lk"><p><a href="#/lektir">← Lektir</a></p><h1>${esc(w.title_km)}</h1>
-    <p><i>${esc(w.title_fr)}</i> — ${esc(w.author)}, ${esc(w.year)}</p><p class="tag">${esc(w.note_km)}</p>${w.note_omit ? `<p><small>${esc(w.note_omit)}</small></p>` : ''}
+    <p><i>${esc(w.title_fr)}</i> — ${esc(w.author)}, ${esc(w.year)}</p><p class="tag">${esc(w.note_km)}</p>${w.progress_km ? `<p class="tag">${esc(w.progress_km)}</p>` : ''}${w.note_omit ? `<p><small>${esc(w.note_omit)}</small></p>` : ''}
     <nav class="lkt">${w.sections.map((x, i) => `<a href="#lk${i}" data-s="${i}">${esc(x.title_km)}</a>`).join(' · ')}</nav>
     ${w.sections.map((x, i) => `<section id="lk${i}"><h2>${esc(x.title_km)}</h2><p><small><i>${esc(x.title_fr)}</i></small></p>${x.type === 'prose' ? x.text.split(/\n\n+/).map(p => `<p>${esc(p)}</p>`).join('') : `<div class="verse">${x.text.split(/\n\n+/).map(st => `<p>${esc(st).replace(/\n/g, '<br>')}</p>`).join('')}</div>`}</section>`).join('')}
     <p><small>${esc(w.source)}</small></p></article>`;
