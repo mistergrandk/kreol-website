@@ -79,7 +79,10 @@
    "title_fr": "Poèmes durant la guerre (1914-1918)",
    "year": "1919",
    "part": "Poésie",
-   "status": "pending"
+   "status": "in_progress",
+   "slug": "poemes-durant-la-guerre",
+   "title_km": "Bann powem pandan Lager",
+   "progress_km": "7/25 seksion (Prefase + I–VI)"
   },
   {
    "title_fr": "Allons, enfants de la patrie !",
