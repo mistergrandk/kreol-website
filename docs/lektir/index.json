@@ -95,7 +95,10 @@
    "title_fr": "Les Glas",
    "year": "1922",
    "part": "Poésie",
-   "status": "pending"
+   "status": "in_progress",
+   "slug": "les-glas",
+   "title_km": "Bann Glas",
+   "progress_km": "Prelid konple (10/57)"
   },
   {
    "title_fr": "Braves gens",
