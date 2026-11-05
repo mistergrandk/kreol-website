@@ -6,7 +6,7 @@
  "year": "1881",
  "source": "Wikisource (Maurice Dreyfous, 1881) — domenn piblik",
  "status": "partial",
- "progress_km": "Mandian lakanpagn ek Mandian Pari konple. 'Nou, bann mandian': tou 'Nou lazwa', 'Nou tristes' I–VIII. Pe vini: lerest 'Nou tristes', 'Nou laglwar', Lepilog, ek Ti Avi ek Prefas.",
+ "progress_km": "Mandian lakanpagn ek Mandian Pari konple. 'Nou, bann mandian': tou 'Nou lazwa', tou 'Nou tristes', 'Nou laglwar' I–II. Pe vini: lerest 'Nou laglwar', Lepilog, ek Ti Avi ek Prefas.",
  "note_km": "Tradiksion par IA (Haru), pa ankor revize",
  "sections": [
   {
@@ -701,6 +701,41 @@
    "group_km": "Nou, bann mandian · Nou tristes",
    "type": "verse",
    "text": "Pück, Buchon, Buchasson, Buchinier, dom Buchet,\nMo kontan rapel sa aswar-la dan enn powem\nLetan kot to met ti viv lao, dan sizyem letaz,\nLetan kot nou ti viv nou lavi boem.\n\nNou ti pas laba, mo ti Buchinier,\nDepi oktob ziska fevrie sink mwa dir kouma ros;\nSirtou pou mwa, mwa poet grenie\nKi ti tann zis divan sonn dan mo pos.\n\nTwa, to ti ere, toutou blan ar nene nwar.\nTo ti touzour ena bon lakaz ek vant plin.\nPli souvan ki mo tour mo ti dezene ar lespwar;\nMe mo ti aste pou twa trwa sou madlenn.\n\nTo ti tou-piti, ankor bebe,\nEk, pou to pa gagn tro fre dan lari,\nMo ti port twa, mo ti-zoli, dan fon mo zile\nKot defwa to ti fer bann zafer malelve.\n\nTo ti tou frize, tou swa ek tou blan,\nEnn tigit koulerr kafe-dile deryer sak zorey.\nTo ti ena, to seve pe anvol dan labriz,\nEnn ler seve-dibout kouma enn tifi ki pe leve.\n\nTo pa ti gourman, apart pou enn nouvo manze.\nKoumsa mo rapel ki to ti tonbe malad\nAkoz to ti gout tro boukou latet ti-bef.\nMem, kifer manz lavyann an salad?\n\nBien brav, to ti trat kouma bann episie\nPli gro dog, pli sovaz serber.\nTo ti bwete ar to lapat deryer agos, ek to ti pipi\nBien drwat, latet anba, ole long bann poto lalimier.\n\nTo ti kirie kouma enn fam, ek kan,\nKan mo ti krwar to dormi, mo ti pe rim enn de fraz,\nSi mo ti get twa, mo ti trouv twa pe brake\nTo ti lizie malin parey kouma de topaz.\n\nTo ti kontan get, kone. To pa ti enn lisien,\nMe enn ti kikenn ki pa parey kouma lezot.\nNou ti konpran ki to ti enn Parizien,\nKi konn Pari, ek preske enn parmi nou.\n\nTo ti ena seki bizin pou vinn vie avek nou.\nMe mo ti pe reve pou twa enn desten pli dou:\nMo paran pe bers twa aswar lor zot zenou,\nZot zarden, zot gran lili, zot gran simine.\n\nO provins! Pei bann dimounn tro bien nouri!\nMo ti dir mwa: « Dom Buche pou viv laba kouma enn prens. »\nEk mo'nn anport twa laba, lwin Pari…\nEk to'nn mor ladan, akoz to'nn trouv provins.\n\nParski to pa ti fer pou sa bann trankilite.\nTo ti bizin Pari, ek so tapaz, ek so lafiev.\nTo'nn mor ar maladi bann zanfan tro gate\nKi anba tro boukou bizou santi zot lalev pali.\n\nTo dormi aster dan enn kwin zarden,\nLor lipie enn pie roz ver ki kouver twa ar roz.\nEk mo pa'nn gagn to adie, kan net\nLor to lizie gran ouver lamor finn met so lame ferme.\n\nTo regar imen dan lonbraz ti pe rod mwa.\nVwala mwa, mo ti kamarad, dan enn powem.\nPück, Buchon, Buchasson, Buchinier, dom Buchet,\nKamarad ar ki mo'nn viv mo lavi boem,\n\nMo rapel twa, ek mo pa pou bliye\nTo lespri, to leker, to ti figir blan.\nSe pou sa ki mo'nn sov tou to nom kont lamor,\nPück, Buchon, Buchasson, Buchinier, dom Buchette."
+  },
+  {
+   "title_fr": "Sonnet ivre",
+   "title_km": "Sone sou",
+   "group_km": "Nou, bann mandian · Nou tristes",
+   "type": "verse",
+   "text": "Kanmem, kan nou fatige krev nou lizie,\nFouy nou fron, fouy nou vant,\nSan trouv rezon pou nanie, kan nou retourne\nKraze apre finn plane dan lavid lesiel,\n\nBizin bliye bann dezir trakase,\nBann lespwar ki finn avorte, ek dormi dan nou trou\nKouma enn zanimo, ouswa bwar plis ki swaf kouma enn santer,\nSan panse. Anou sou, bwarer trankil!\n\nOh! Dou lopiom, lextaz ki rann bet!\nBitter, grena brile, vermout, topaz kler,\nAbsint, dile trouble emerod. Verse!\n\nVerse, nou pa pou rod ankor ni lefe ni lakoz!\nLabous kouse soley dan nou leker kraze\nVomi labsint ant zot lalev roz."
+  },
+  {
+   "title_fr": "Cimetière intime",
+   "title_km": "Simitier mo leker",
+   "group_km": "Nou, bann mandian · Nou tristes",
+   "type": "verse",
+   "text": "Mo'nn deza trouv plis ki enn lane,\nZoli tifi ar koulerr fre,\nMor vie, zonn, fane,\nEk perdi so sapo fler.\n\nAdie, adie, roz ki pe tonbe!\nAdie, adie, zoli mwa me!\nMo leker, se pei bann latonm\nKot mo boner ferme.\n\nLespwar, ilizion vermey,\nSwet laglwar, panse lamour,\nKouma enn zenn lesen mous-dimiel\nFinn anvole kan lizour ti pe leve.\n\nMe, pandan ki zot ti pe mont ver niaz,\nEnn tourbiyon finn anport zot,\nEk divan ar so souf pwintou\nFinn kalot zot ar brital.\n\nTonbe! Tonbe! Ek lor later\nMo ti ramas zot, pe etoufe.\nMo'nn met zot dan mo simitier\nAlonze dan serkey zanfan.\n\nEk sak aswar, kan ler vini\nKot lwin lemond mo tousel,\nMo ouver sak serkey, ek mo plore\nPe deroul sak lenseil.\n\nKan mo'nn fini, ar enn lame dousman\nMo ferm mo leker, lavil tris,\nSimitier, lavil douloure,\nKot personn pa'nn resisite.\n\nMo'nn deza trouv plis ki enn lane,\nZoli tifi ar koulerr fre,\nMor vie, zonn, fane,\nEk perdi so sapo fler.\n\nAdie, adie, roz ki pe tonbe!\nAdie, adie, zoli mwa me!\nMo leker, se pei bann latonm\nKot mo boner ferme."
+  },
+  {
+   "title_fr": "Sonnet morne",
+   "title_km": "Sone tris",
+   "group_km": "Nou, bann mandian · Nou tristes",
+   "type": "verse",
+   "text": "Lapli pe tonbe, ek divan sorti dan nor.\nTou pe koule. Lesiel pe krev.\nBon letan pou nway so rev\nDan Losean nwar lamor!\n\nAnou nway li. Se enn lisien ki mord.\nOup! Ros lour ek lakord kourt!\nEk enfin nou pou gagn repo,\nSomey san swet ni remor.\n\nMe nou lars; nou desid\nPou ranvway swisid;\nNou lir; nou baye; nou fer ver;\n\nNou ekoute, pe bwar enn de lit,\nLapli ar so zong ver\nPe tap lasarz lor bann lavit."
+  },
+  {
+   "title_fr": "À Maurice Bouchor",
+   "title_km": "Pou Maurice Bouchor",
+   "group_km": "Nou, bann mandian · Nou laglwar",
+   "type": "verse",
+   "text": "Ki ti ena kinz an lerla\n\nMo leker port plis ki enn lantay.\nPa tro vie, mo'nn viv boukou.\nLavi, lager dir ek rouz,\nSer mwa, me li pa'nn bat mwa.\n\nTwa, to konn mwins bann zom,\nParski to pli zenn parmi\nTou poet ki nou ete,\nMaurice Bouchor, mo kamarad.\n\nTo kone, frer, konbien mo kontan twa.\nSe pou sa ki mo oule epargn twa,\nKan mo averti twa, batem\nLexperians ki bizin gagne.\n\nDan latmosfer imen ek nwar,\nMo pou dir twa kouma, par kot,\nTo bizin rantre, pou fer\nZiska lorizon ble to trou.\n\nLemond fer ar bann lars\nEk bann feb. Twa ki santi twa\nKouraze, fer pou gran travay,\nServo plin, lezin for,\n\nPa les zot trouv to lestoma\nAvan ki to bien antrene.\nZot lamas ti pou kraz to lafors,\nZot tapaz ti pou kouver to kriye.\n\nRant kouma enn grin dan enn tami,\nPerdi, piti, ratatine.\nKi lion sovaz ek terib\nEna ler enn bef ki finn ne mor!\n\nKouma zot ras pa tann,\nZot pou riye otour twa. Bien!\nBizin sa. Pou fer zot tann twa\nVinn grotesk, se enn fason.\n\nGet! Zot pe rasanble. Vinn fantask,\nBariole, fer grimas, moker.\nLor to figir koll enn mask;\nMet enn fo nene; montre enn fo leker.\n\nPa souf dan enn tronpet\nAn kwiv ar refle eklatan.\nSeki nou tann dan tanpet\nPar-lao tou, se enn sifle.\n\nFout lepe! Pran enn baton,\nBat enn kikenn, ek si sa enn ki finn gagn bate\nAnkoler ek apel twa akrobat,\nReponn « Zout! » ouswa « Tirlititi! »\n\nSant sanson ridikil;\nPres labsird ar plin gorz;\nDir, kan to trouv bann bouton-dor,\nKi zot pous lor enn pie roz;\n\nDir ki niaz se lafime\nTo pip, ki zasmen\nEnn fler mwins parfime\nKi enn mandian ki pe sek so lame;\n\nDir ki ena latet san nik,\nVer san rim, ek ki enn zanfan\nKapav fer par enn zom koupe,\nParski okenn lalwa pa anpes sa;\n\nDir ki poet se enn zwit,\nPerl, se filisten;\nDir ki to papa ti enn bet,\nKi to granmama ti enn fam lari;\n\nKriye, badine, fer lafars,\nVinn blan, nwar, zonn, rouz, ble;\nFer zot enfin pran to vesi\nPou lanp, sapristi!\n\nLerla, kan gran riye bet-la\nFinn bien sakouy zot kote,\nGonf zot likou, rouzi zot latet,\nEk fer roul zot gro lizie blan,\n\nKan zot labous vinn bann lagrot,\nEk kan, fes lor talon,\nZot pou fer krak lor zot vant\nKi finn gonfle, zot pantalon,\n\nLerla, lev to gran lotaz,\nLager san pitie, san repo,\nTap ar lapwint, tap ar lalam,\nEk fer ranyon ar zot lapo;\n\nEk si zot dimann twa pardon,\nTap touzour, pa donn okenn;\nEk krev zot gro vant gra,\nAr kout pie, ar kout pwin;\n\nEk grandi, grandi kouma enn rev\nDevan zot lizie efreye,\nEk ki zot lizie plonz dan to lizie\nKouma dan enn pwi lalimier;\n\nKi to seve vinn lake\nEnn komet, ek kouma enn lerwa\nOuver dan divan to pavion ble\nKoupe dan plin lesiel;\n\nMont pli lao, kouma enn gran leg,\nPli lao touzour, kouma enn kondor;\nMonte san fren, san lalwa, san reg,\nEk perdi twa dan kouse soley lor;\n\nEk navige enfin ar tou to vwal,\nLwin lemond, lwin isi;\nKi to larm vinn zetwal,\nEk to lasier bann losean;\n\nEk laba lao dan lespas lib,\nLor to lekor glorie ek zoli\nSi to trouve ki ena enn tras\nLager ouswa lasenn,\n\nLor to fron si to trouv ankor\nLabou ek disan vermey,\nLav to figir dan laror\nEk sek twa dan soley!"
+  },
+  {
+   "title_fr": "Ballade Villon",
+   "title_km": "Balad Villon",
+   "group_km": "Nou, bann mandian · Nou laglwar",
+   "type": "verse",
+   "text": "Lerwa bann poet an ranyon,\nO mandian, met François Villon,\nBwarer diven, kourer fiy,\nSoner karyon gaye,\nGran melankolik an pay,\nTo ver lor to latet ki dimounn ay\nFer flanbe rayon sakre,\nEskrok, vorien, makro, zeni!\n\nTo ti papa bann bon gayar\nKi to ranpli zot pagne;\nEk pou sa bann ti pese-la\nTo preske, kan to'nn kit to rigol,\nLor lapotans kouma enn legzanp,\nPandi, figir rakorni\nKi lapli ti pou fer enn bouyon,\nEskrok, vorien, makro, zeni!\n\nLes bann rodeur ti detay\nPik twa ar zot zegwi.\nLor zot prese to vomi.\nAmoure Margot sal-la,\nTo finn kone, mem dan so zipon,\nAlim zetwal beni\nKi fer to ranyon briye,\nEskrok, vorien, makro, zeni!\n\nANVWA\n\nPrens, lev to pavion,\nEk tan pi pou sa ki renie twa,\nLerwa bann poet san enn sou,\nEskrok, vorien, makro, zeni!"
   }
  ]
 }
