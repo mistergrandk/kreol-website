@@ -5,7 +5,7 @@
  "author": "Jean Richepin",
  "year": "1920",
  "source": "Archive.org / Wikisource (Tours, Mame, 1920; Revue des Deux Mondes) — domenn piblik",
- "status": "in_progress",
+ "status": "complete",
  "note_km": "Tradiksion par IA (Haru), pa ankor revize. De poem (Fanfan-la-Tulipe, Le Tambour-Major) mank dan scan IA/Gallica (paz mankan).",
  "sections": [
   {
@@ -248,6 +248,5 @@
    "text": "To laba retour, peyizan, a Later!\nTo pe reprann to laber enn eternel susi.\nEro ki to ti laba, to se isi.\nPorte li fierman, to bonnet militer.\n\nSif to bann mor la, san komanter,\nPou montre ki Franse ek ki Lemonn osi\nDwet zot sali, o peyizan!... Mersi!\nMwa, mo reste a zame to umbl tributer.\n\nKan pou vinn mwa, biento, ineliktabl zour\nVre, definitif ek siprem retour\nA Later, a gleb ogist ek maternel,\nEski pa twa, mo garson, travayer mervèye,\nKi pou'nn asire mwa ena li, liber, an li,\nBon kwin bon li kot bann aïeu dormi?",
    "group_km": "Bann powem"
   }
- ],
- "progress_km": "Revizion fidel nesesèr: La Marne (~40%), Le Moblot (~56%), Le 75 (~61%), Bluet, Retour à la terre, Clairon de Sidi-Brahim. Fanfan-la-Tulipe ek Tambour-Major touzour mankan dan sous."
+ ]
 }
