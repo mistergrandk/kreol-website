@@ -63,9 +63,10 @@
    "title_fr": "La Glu",
    "year": "1881/1883",
    "part": "Romans",
-   "status": "complete",
+   "status": "in_progress",
    "slug": "la-glu",
-   "title_km": "Lagli"
+   "title_km": "Lagli",
+   "progress_km": "Revizion fidel nesesèr: chapit VII, IX–XII, XXX ti kondanse (37–55%). Lezot chapit ~75–80% OK. Pe re-tradwir bann seksion kondanse."
   },
   {
    "title_fr": "La Bombarde",
@@ -79,25 +80,28 @@
    "title_fr": "Poèmes durant la guerre (1914-1918)",
    "year": "1919",
    "part": "Poésie",
-   "status": "complete",
+   "status": "in_progress",
    "slug": "poemes-durant-la-guerre",
-   "title_km": "Bann powem pandan Lager"
+   "title_km": "Bann powem pandan Lager",
+   "progress_km": "Revizion fidel nesesèr: Noël-Surprise (~60%), Au Roi des Belges (~55%). Rest ~75–80% OK."
   },
   {
    "title_fr": "Allons, enfants de la patrie !",
    "year": "1920",
    "part": "Poésie",
-   "status": "complete",
+   "status": "in_progress",
    "slug": "allons-enfants-de-la-patrie",
-   "title_km": "Anou, zanfan patri!"
+   "title_km": "Anou, zanfan patri!",
+   "progress_km": "Revizion fidel nesesèr: La Marne (~40%), Le Moblot (~56%), Le 75 (~61%), Bluet, Retour à la terre, Clairon de Sidi-Brahim. Fanfan-la-Tulipe ek Tambour-Major touzour mankan dan sous."
   },
   {
    "title_fr": "Les Glas",
    "year": "1922",
    "part": "Poésie",
-   "status": "complete",
+   "status": "in_progress",
    "slug": "les-glas",
-   "title_km": "Bann Glas"
+   "title_km": "Bann Glas",
+   "progress_km": "Revizion fidel nesesèr: Soûleries du soir (~38%), Épître (~56%), L'Ange (~53%), Gloire des bêtes (~48%), Carpe diem, Ode arrière-neveux, Plainte de la croix, Prière à mon cerveau. Plizie poem SHORT 70–80%."
   },
   {
    "title_fr": "Braves gens",
