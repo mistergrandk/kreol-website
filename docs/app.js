@@ -9,7 +9,7 @@ const SEL = 'id,headword,status,data';
 
 // ---------- i18n
 const T = {
- fr: { cta:'📱 Obtenir l’app', openApp:'Ouvrir dans l’app', 'nav.browse':'Parcourir','nav.fav':'Favoris','nav.submit':'Contribuer','nav.app':'Application','nav.admin':'Admin','nav.about':'À propos',
+ fr: { cta:'📱 Obtenir l’app', openApp:'Ouvrir dans l’app', 'nav.browse':'Parcourir','nav.fav':'Favoris','nav.submit':'Contribuer','nav.app':'Application','nav.admin':'Admin','nav.about':'À propos','nav.lektir':'Lektir',
   foot:'Diksioner Kreol Morisien — dictionnaire communautaire', title:'Diksioner Kreol Morisien', tag:'Le dictionnaire créole mauricien ↔ français ↔ anglais',
   ph:'Chercher un mot en kreol, français ou anglais…', wotd:'Mot du jour', stats:'Le dictionnaire', words:'mots', stories:'histoires',
   noRes:'Aucun résultat. Proposez ce mot !', browse:'Parcourir de A à Z', prev:'← Précédent', next:'Suivant →', favs:'Mes favoris',
@@ -23,7 +23,7 @@ const T = {
   logout:'Déconnexion', notMod:'Ce compte n’a pas le rôle modérateur.', queue:'File de modération', approve:'Approuver', reject:'Rejeter', empty:'File vide 🎉',
   linkSent:'Lien envoyé, vérifiez votre boîte mail.', needLogin:'Les propositions anonymes ne sont pas encore activées : connectez-vous par e-mail pour contribuer.',
   about:'À propos', aboutTxt:'Dictionnaire communautaire du kreol morisien. Données : Wiktionary (CC BY-SA 4.0) et contributions vérifiées. Les entrées « À vérifier » ont des définitions provisoires.' },
- en: { cta:'📱 Get the app', openApp:'Open in app', 'nav.browse':'Browse','nav.fav':'Favorites','nav.submit':'Contribute','nav.app':'App','nav.admin':'Admin','nav.about':'About',
+ en: { cta:'📱 Get the app', openApp:'Open in app', 'nav.browse':'Browse','nav.fav':'Favorites','nav.submit':'Contribute','nav.app':'App','nav.admin':'Admin','nav.about':'About','nav.lektir':'Lektir',
   foot:'Diksioner Kreol Morisien — community dictionary', title:'Diksioner Kreol Morisien', tag:'The Mauritian Creole ↔ French ↔ English dictionary',
   ph:'Search a word in Kreol, French or English…', wotd:'Word of the day', stats:'The dictionary', words:'words', stories:'stories',
   noRes:'No results. Suggest this word!', browse:'Browse A to Z', prev:'← Previous', next:'Next →', favs:'My favorites',
@@ -37,7 +37,7 @@ const T = {
   logout:'Sign out', notMod:'This account does not have the moderator role.', queue:'Moderation queue', approve:'Approve', reject:'Reject', empty:'Queue is empty 🎉',
   linkSent:'Link sent, check your inbox.', needLogin:'Anonymous suggestions are not enabled yet: sign in by email to contribute.',
   about:'About', aboutTxt:'Community dictionary of Mauritian Creole. Data: Wiktionary (CC BY-SA 4.0) and reviewed contributions. “Needs review” entries have draft definitions.' },
- mfe: { cta:'📱 Pran aplikasion', openApp:'Ouver dan aplikasion', 'nav.browse':'Get tou','nav.fav':'Mo bann prefere','nav.submit':'Kontribie','nav.app':'Aplikasion','nav.admin':'Admin','nav.about':'Lor nou',
+ mfe: { cta:'📱 Pran aplikasion', openApp:'Ouver dan aplikasion', 'nav.browse':'Get tou','nav.fav':'Mo bann prefere','nav.submit':'Kontribie','nav.app':'Aplikasion','nav.admin':'Admin','nav.about':'Lor nou','nav.lektir':'Lektir',
   foot:'Diksioner Kreol Morisien — diksioner kominoter', title:'Diksioner Kreol Morisien', tag:'Diksioner kreol morisien ↔ franse ↔ angle',
   ph:'Rod enn mo an kreol, franse ouswa angle…', wotd:'Mo zordi', stats:'Diksioner', words:'mo', stories:'zistwar',
   noRes:'Nanye pa finn trouve. Propoz sa mo-la !', browse:'Get tou mo depi A ziska Z', prev:'← Avan', next:'Apre →', favs:'Mo bann prefere',
@@ -305,6 +305,27 @@ async function logout() { await sb.auth.signOut(); admin(); }
 
 function about() { main.innerHTML = `<div class="card"><h1>${t('about')}</h1><p>${t('aboutTxt')}</p></div>`; }
 
+// ---------- Lektir (static JSON translations)
+const getJ = async p => { const r = await fetch(p, { cache: 'no-cache' }); if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); };
+async function lektir(slug) {
+  if (!slug) {
+    const ix = await getJ('lektir/index.json');
+    const done = ix.works.filter(w => w.slug), todo = ix.works.filter(w => !w.slug);
+    main.innerHTML = `<div class="card lk"><h1>Lektir</h1><p>Bann zev ${esc(ix.author)} tradwir an Kreol Morisien.</p><p class="tag">${esc(ix.note_km)}</p>
+      <h2>Disponib (${done.length}/${ix.works.length})</h2><ul class="lkl">${done.map(w => `<li><a href="#/lektir/${esc(w.slug)}"><b>${esc(w.title_km)}</b></a><br><small>${esc(w.title_fr)} · ${esc(w.year)}</small></li>`).join('')}</ul>
+      <h2>Pe vini</h2><ul class="lkl muted">${todo.map(w => `<li>${esc(w.title_fr)} <small>· ${esc(w.year)} · ${esc(w.part)}</small></li>`).join('')}</ul></div>`;
+    return;
+  }
+  if (!/^[a-z0-9-]+$/.test(slug)) throw new Error('?');
+  const w = await getJ('lektir/' + slug + '.json');
+  main.innerHTML = `<article class="card lk"><p><a href="#/lektir">← Lektir</a></p><h1>${esc(w.title_km)}</h1>
+    <p><i>${esc(w.title_fr)}</i> — ${esc(w.author)}, ${esc(w.year)}</p><p class="tag">${esc(w.note_km)}</p>${w.note_omit ? `<p><small>${esc(w.note_omit)}</small></p>` : ''}
+    <nav class="lkt">${w.sections.map((x, i) => `<a href="#lk${i}" data-s="${i}">${esc(x.title_km)}</a>`).join(' · ')}</nav>
+    ${w.sections.map((x, i) => `<section id="lk${i}"><h2>${esc(x.title_km)}</h2><p><small><i>${esc(x.title_fr)}</i></small></p>${x.type === 'prose' ? x.text.split(/\n\n+/).map(p => `<p>${esc(p)}</p>`).join('') : `<div class="verse">${x.text.split(/\n\n+/).map(st => `<p>${esc(st).replace(/\n/g, '<br>')}</p>`).join('')}</div>`}</section>`).join('')}
+    <p><small>${esc(w.source)}</small></p></article>`;
+  main.querySelectorAll('.lkt a').forEach(a => a.onclick = e => { e.preventDefault(); $('#lk' + a.dataset.s).scrollIntoView({ behavior: 'smooth' }); });
+}
+
 // ---------- router
 async function route() {
   const h = location.hash.replace(/^#\/?/, '').split('?')[0];
@@ -318,6 +339,7 @@ async function route() {
     else if (a === 'app') await appView();
     else if (a === 'admin') await admin();
     else if (a === 'about') about();
+    else if (a === 'lektir') await lektir(b);
     else await home();
   } catch (e) { main.innerHTML = `<div class="msg err">${esc(e.message || e)}</div>`; }
   window.scrollTo(0, 0);

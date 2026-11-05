@@ -1,0 +1,207 @@
+{
+ "author": "Jean Richepin",
+ "note_km": "Tradiksion par IA (Haru), pa ankor revize",
+ "updated": "2026-11-05",
+ "works": [
+  {
+   "title_fr": "La Chanson des gueux",
+   "year": "1881",
+   "part": "Poésie",
+   "status": "pending"
+  },
+  {
+   "title_fr": "La Chanson des gueux, pièces supprimées",
+   "year": "1881",
+   "part": "Poésie",
+   "status": "complete",
+   "slug": "chanson-des-gueux-pieces-supprimees",
+   "title_km": "Sante bann Mandian: bann pies ki ti tire"
+  },
+  {
+   "title_fr": "Les Caresses",
+   "year": "1877",
+   "part": "Poésie",
+   "status": "pending"
+  },
+  {
+   "title_fr": "Les Blasphèmes",
+   "year": "1890",
+   "part": "Poésie",
+   "status": "pending"
+  },
+  {
+   "title_fr": "La Mer",
+   "year": "1886/1894",
+   "part": "Poésie",
+   "status": "pending"
+  },
+  {
+   "title_fr": "Mes paradis",
+   "year": "1894",
+   "part": "Poésie",
+   "status": "pending"
+  },
+  {
+   "title_fr": "Les Morts bizarres",
+   "year": "1876",
+   "part": "Nouvelles",
+   "status": "pending"
+  },
+  {
+   "title_fr": "La Glu",
+   "year": "1881/1883",
+   "part": "Romans",
+   "status": "pending"
+  },
+  {
+   "title_fr": "La Bombarde",
+   "year": "1899",
+   "part": "Poésie",
+   "status": "pending"
+  },
+  {
+   "title_fr": "Poèmes durant la guerre (1914-1918)",
+   "year": "1919",
+   "part": "Poésie",
+   "status": "pending"
+  },
+  {
+   "title_fr": "Allons, enfants de la patrie !",
+   "year": "1920",
+   "part": "Poésie",
+   "status": "pending"
+  },
+  {
+   "title_fr": "Les Glas",
+   "year": "1922",
+   "part": "Poésie",
+   "status": "pending"
+  },
+  {
+   "title_fr": "Braves gens",
+   "year": "1886",
+   "part": "Romans",
+   "status": "pending"
+  },
+  {
+   "title_fr": "Césarine",
+   "year": "1888",
+   "part": "Romans",
+   "status": "pending"
+  },
+  {
+   "title_fr": "Miarka, la fille à l'ourse",
+   "year": "1883/1910",
+   "part": "Romans",
+   "status": "pending"
+  },
+  {
+   "title_fr": "L'Aimé",
+   "year": "1893",
+   "part": "Romans",
+   "status": "pending"
+  },
+  {
+   "title_fr": "Flamboche",
+   "year": "1895",
+   "part": "Romans",
+   "status": "pending"
+  },
+  {
+   "title_fr": "Lagibasse",
+   "year": "1900",
+   "part": "Romans",
+   "status": "pending"
+  },
+  {
+   "title_fr": "Le Pavé",
+   "year": "1883",
+   "part": "Contes et prose",
+   "status": "pending"
+  },
+  {
+   "title_fr": "Truandailles",
+   "year": "1890",
+   "part": "Contes et prose",
+   "status": "pending"
+  },
+  {
+   "title_fr": "Cauchemars",
+   "year": "1892",
+   "part": "Contes et prose",
+   "status": "pending"
+  },
+  {
+   "title_fr": "Proses de guerre",
+   "year": "1915",
+   "part": "Contes et prose",
+   "status": "pending"
+  },
+  {
+   "title_fr": "Contes sans morale",
+   "year": "1922",
+   "part": "Contes et prose",
+   "status": "pending"
+  },
+  {
+   "title_fr": "Monsieur Scapin",
+   "year": "1886/1888",
+   "part": "Théâtre",
+   "status": "pending"
+  },
+  {
+   "title_fr": "Le Flibustier",
+   "year": "1888",
+   "part": "Théâtre",
+   "status": "pending"
+  },
+  {
+   "title_fr": "Par le glaive",
+   "year": "1892",
+   "part": "Théâtre",
+   "status": "pending"
+  },
+  {
+   "title_fr": "Vers la joie",
+   "year": "1894",
+   "part": "Théâtre",
+   "status": "pending"
+  },
+  {
+   "title_fr": "Le Chemineau",
+   "year": "1897",
+   "part": "Théâtre",
+   "status": "pending"
+  },
+  {
+   "title_fr": "La Martyre",
+   "year": "1898",
+   "part": "Théâtre",
+   "status": "pending"
+  },
+  {
+   "title_fr": "Les Truands",
+   "year": "1899",
+   "part": "Théâtre",
+   "status": "pending"
+  },
+  {
+   "title_fr": "Théâtre chimérique",
+   "year": "1896",
+   "part": "Théâtre",
+   "status": "pending"
+  },
+  {
+   "title_fr": "Don Quichotte",
+   "year": "1905",
+   "part": "Théâtre",
+   "status": "pending"
+  },
+  {
+   "title_fr": "Cadet-Roussel",
+   "year": "1903",
+   "part": "Théâtre",
+   "status": "pending"
+  }
+ ]
+}
